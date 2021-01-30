@@ -10,8 +10,13 @@
 
 # ชื่อตัวแปร  = ค่าของตัวแปร    
 x = 10 #integer
+y = 3.99 #float
+z = True
 print(x)
+print(y)
+print(z)
+print("ผลลัพท์" + str(x)) #แปลง int เป็น String โดยใช้ str(X)
 
-print("ผลลัพท์" + str(x)) #แปลง int เป็น String โดยใช้ str
+print(type(y)) # หาว่าคือชนิดข้อมูลแบบไหน
 
 
